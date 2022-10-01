@@ -32,7 +32,7 @@ hitungLuas.addEventListener("click", function (e) {
   let valueL = hitungL(inputLingkaran.value);
   const createElement = document.createElement("p");
   const createText = document.createTextNode(
-    `Luas keliling dari jari-jari ${inputLingkaran.value} CM adalah ${valueL}`
+    `Luas lingkaran dari jari-jari ${inputLingkaran.value} CM adalah ${valueL}`
   );
   createElement.appendChild(createText);
   hasil.style.display = "block";

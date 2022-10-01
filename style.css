@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.judul {
+  font-size: 18px;
+}
+
+.pertanyaan {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.judul,
+.pertanyaan {
+  margin: 15px 0;
+}
+
+.lingkaran {
+  display: flex;
+  width: 150px;
+  height: 150px;
+  background-color: rgb(105, 157, 216);
+  border-radius: 50%;
+  align-items: center;
+}
+
+.lingkaran span {
+  border-bottom: 1px solid black;
+  width: 50%;
+  margin-left: 50%;
+}
+
+button {
+  padding: 5px;
+}
+
+label {
+  margin-top: 20px;
+}
+
+input {
+  margin-top: 5px;
+}
+
+#ok {
+  margin-top: 5px;
+}
+
+#hitungKeliling {
+  margin-top: 15px;
+}
+
+#hitungLuas {
+  margin-top: 5px;
+}
+
+.hasil {
+  margin-top: 15px;
+  background-color: rgb(128, 219, 128);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 1px -4px 4px -2px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px -4px 4px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px -4px 4px -2px rgba(0, 0, 0, 0.75);
+  display: none;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+}
